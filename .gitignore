@@ -1,0 +1,30 @@
+# Ignore environment variables and configuration files
+.env
+config.ini
+*.config
+
+# Python environment
+venv/
+myenv/
+env/
+__pycache__/
+*.pyc
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Local configuration files that might contain secrets
+secrets.json
+credentials.json
+*_key.json
+api_keys.txt
+
+# Spotify specific
+.cache
+.spotify_caches/
+lyrics_cache.pkl
